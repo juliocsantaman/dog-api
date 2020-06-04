@@ -15,8 +15,11 @@ header {
   color: #FFFFFF;
   padding: 10px;
   text-align: center;
-  margin-bottom: 15px;
+}
 
+main {
+  background-color: #038C7F;
+  padding-top: 15px;
 }
 
 .image-container {
