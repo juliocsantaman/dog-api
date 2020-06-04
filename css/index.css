@@ -30,3 +30,10 @@ img {
   border-radius: 10px;
   margin: 20px;
 }
+
+footer {
+  background-color: #04BF8A;
+  color: #FFFFFF;
+  padding: 7px;
+  text-align: center;
+}
