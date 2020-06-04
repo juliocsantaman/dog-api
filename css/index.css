@@ -19,14 +19,15 @@ header {
 
 }
 
-.images-container {
+.image-container {
   display: flex;
-  flex-flow: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
   margin: 20px;
 }
