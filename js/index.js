@@ -1,7 +1,6 @@
 const search = document.getElementById('search');
 let url;
-//Parent container.
-const container = document.getElementById('container');
+const main = document.querySelector('main');
 
 function fetchSearch() {
   createUrl();
@@ -29,7 +28,7 @@ function showImages(data) {
     imageContainer.appendChild(img);
   });
 
-  container.appendChild(imageContainer);
+  main.appendChild(imageContainer);
 
 }
 
