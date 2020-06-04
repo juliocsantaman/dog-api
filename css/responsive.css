@@ -11,6 +11,7 @@ No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 992px) { 
   .image-container {
     flex-direction: row;
+    flex-flow: wrap;
     justify-content: center;
   }
 
